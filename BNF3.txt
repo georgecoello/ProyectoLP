@@ -18,9 +18,9 @@
  
 <asignacion> ::- <tipoDeDato><espacio><nombreVariable><puntoyComa> | <tipoDeDato><espacio><nombreVariable><igualdad><digito><>puntoyComa | <tipoDeDato><espacio><nombreVariable><igualdad><tipoDeDato> | <tipoDeDato><espacio><nombreVariable><igualdad><digito><puntoyComa> | <tipoDeDato><espacio><nombreVariable><igualdad><tipoDeDato><puntoyComa> | <tipoDeDato><espacio><nombreVariable><igualdad><digito><signoOpeacional><nombreVariable><puntoyComa> | <tipoDeDato><espacio><nombreVariable><espacio><igualdad><espacio><digito><espacio><signoOpeacional><espacio><nombreVariable><puntoyComa>
 
-<lectura> ::- "cin>>" <nombreVariable> <PuntoyComa>
+<lectura> ::- "entrada>>" <nombreVariable> <PuntoyComa>
 
-<imprimir> ::- "cout<<" '"' <texto> '"' "<<nombreVariable<< endl"<PuntoyComa> | "cout<<" '"' <texto> '"' <PuntoyComa> | "cout<<" <nombreVariable> "<<endl"<puntoyComa> | "cout<<" <nombreVariable><puntoyComa>
+<imprimir> ::- "salida<<" '"' <texto> '"' "<<nombreVariable<< endl"<PuntoyComa> | "salida<<" '"' <texto> '"' <PuntoyComa> | "salida<<" <nombreVariable> "<<endl"<puntoyComa> | "salida<<" <nombreVariable><puntoyComa>
 
 <nombreVariable> ::- <letra> | <nombreVariable><letra> | <nombreVariable><digito> |  <nombreVariable><guionBajo><digito>
 
@@ -33,6 +33,8 @@
 <letra> ::- a|b|c|d|e|f|g|h|i|j|k|l|m|n|o|p|q|r|s|t|u|v|w|x|y|z|A|B|C|D|E|F|G|H|I|J|K|L|M|N|O|P|Q|R|S|T|U|V|W|X|Y|Z
 
 <tipoDeDato> ::- "cadena" | "entero" | "flotante" | "flotante grande" | "entero corto" | "entero largo" | "booleano" | "verdadero" | "falso" | "vacio"
+
+//
 
 <std> ::- "using namespace std"<PuntoyComa>
 
