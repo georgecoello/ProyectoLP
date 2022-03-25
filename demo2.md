@@ -34,14 +34,14 @@ vacio ciclosEimprimir (){
     //Formas de los ciclos
     //Forma 1 del si
     si (a > 7){
-        cout <<a;
+        salida <<a;
     }
 
 
     //Forma 2 del si
     si (a > 7){
         entero a = a+1;
-        cout <<a;
+        salida <<a;
     }
 
     //Forma 3 del si
@@ -49,45 +49,45 @@ vacio ciclosEimprimir (){
         entero b; 
         entero c; 
         c = a+b;
-        cout <<c;
+        salida <<c;
     }
 
     //Formas del para 
     //Forma 1 del para
     para (int i = 0; i < 5; i++){
-        cout << i; 
+        salida << i; 
     }
 
     //Forma 2 del para
     para (int i = 0; i < 5; i++){
         entero k; 
-        cout << k; 
+        salida << k; 
     }
 
     //Forma 3 del para 
     para (int i = 0; i < 5; i++){
         entero k; 
         k = k+i;
-        cout << k; 
+        salida << k; 
     }
 
     //Formas del mientras
     //Forma 1 del mientras
     mientras (a<10){
-        cout <<a;
+        salida <<a;
     }
 
     //Forma 2 del mientras
     mientras (a=10){
         entero k = 5; 
-        cout << k;
+        salida << k;
     }
 
     //Forma 3 del mientras 
     mientras (a>10){
         entero k; 
         k = k+i;
-        cout << k; 
+        salida << k; 
     }
 }
 
