@@ -21,7 +21,7 @@ vacio declarar () {
 }
 
 vacio leer (){
-    cin>> a; 
+    entrada>> a; 
 }
 
 vacio ciclosEimprimir (){
